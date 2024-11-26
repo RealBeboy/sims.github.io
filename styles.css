@@ -227,3 +227,301 @@ body {
 .feature-card p {
   color: #555;
 }
+
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #c41e3a;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+header .logo {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #c41e3a;
+}
+
+/* Main Section */
+main {
+  padding: 2rem;
+}
+
+.plans-section, .service-section {
+  margin: 2rem 0;
+}
+
+.plans-section h2, .service-section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #c41e3a;
+}
+
+.dropdown {
+  margin: 1.5rem 0;
+}
+
+.dropdown-btn {
+  background-color: #c41e3a;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-btn:hover {
+  background-color: #a61a2e;
+}
+
+.dropdown-content {
+  display: none;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  background-color: #fefefe;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.dropdown-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-content ul li {
+  margin: 0.5rem 0;
+}
+
+.dropdown-content h3 {
+  color: #c41e3a;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+
+/* Announcements Section */
+.announcements {
+  padding: 2rem;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.announcements h2 {
+  font-size: 2rem;
+  color: #c41e3a;
+  margin-bottom: 1.5rem;
+}
+
+.announcement-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.announcement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.announcement:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.announcement-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.announcement-content {
+  padding: 1rem;
+  text-align: left;
+}
+
+.announcement-content h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.announcement-content p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.announcement-content a {
+  color: #c41e3a;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.announcement-content a:hover {
+  color: #9b172b;
+}
+
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+  background-color: #c41e3a;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+header .logo {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+/* Navigation */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #c41e3a;
+}
+
+/* About Section */
+.about-section {
+  padding: 2rem;
+  background-color: white;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  background-color: #fefefe;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h2 {
+  color: #c41e3a;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
