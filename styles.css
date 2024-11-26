@@ -600,3 +600,7 @@ footer {
   margin-right: 0.5rem;
   color: #c41e3a;
 }
+
+.brand{
+  font-style: italic;
+}
