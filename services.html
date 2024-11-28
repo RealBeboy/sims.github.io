@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Services - Salvador Indigent Memorial Services</title>
   <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
   <header>
@@ -54,29 +55,34 @@
       <h2>Semi-Banking System</h2>
     
       <div class="features">
-        <h3><span class="section-title">Special Features</span></h3>
-        <ul class="styled-list">
-          <li><i class="icon">🔄</i> <strong>Transferable:</strong> You may transfer to any living person.</li>
-          <li><i class="icon">🔗</i> <strong>Assignable:</strong> You may assign to any deceased person.</li>
-          <li><i class="icon">💳</i> <strong>Loanable:</strong> Available after being fully paid.</li>
-          <li><i class="icon">💰</i> <strong>Withdrawable:</strong> Accessible after 10 years of being fully paid.</li>
-          <li><i class="icon">⚕️</i> <strong>No medical examination required.</strong></li>
-          <li><i class="icon">🎂</i> <strong>No age limits.</strong></li>
-          <li><i class="icon">💵</i> <strong>Money Back:</strong> Receive funds 20 years after being fully paid.</li>
+        <h3>Special Features</h3>
+        <ul class="features-list">
+          <li><strong>Transferable</strong><br>You may transfer to any living person.</li>
+          <li><strong>Assignable</strong><br>You may assign to any deceased person.</li>
+          <li><strong>Loanable</strong><br>Available after being fully paid.</li>
+          <li><strong>Withdrawable</strong><br>Accessible after 10 years of being fully paid.</li>
+          <li><strong>No Medical Examination</strong><br>Required for eligibility.</li>
+          <li><strong>No Age Limits</strong><br>Applies to all members.</li>
+          <li><strong>Money Back</strong><br>Receive funds 20 years after being fully paid.</li>
         </ul>
       </div>
+      
     
       <div class="benefits">
-        <h3><span class="section-title">Special Benefits</span></h3>
-        <div class="benefits-card">
+        <h3><button class="toggle-btn" onclick="toggleSection('benefits-card')">
+          <span>▼</span> Special Benefits
+        </button></h3>
+        <div id="benefits-card" class="benefits-card">
           <i class="icon">⚠️</i>
           <p><strong>Accidental Death:</strong> No need to pay the balance and enjoy free memorial packages.</p>
         </div>
       </div>
     
       <div class="memorial-inclusions">
-        <h3><span class="section-title">Memorial Benefits Inclusions</span></h3>
-        <ul class="styled-grid">
+        <h3><button class="toggle-btn" onclick="toggleSection('inclusions-list')">
+          <span>▼</span> Memorial Benefits Inclusions
+        </button></h3>
+        <ul id="inclusions-list" class="styled-grid">
           <li><i class="icon">⚰️</i> Casket</li>
           <li><i class="icon">🧪</i> Embalming</li>
           <li><i class="icon">🪦</i> Lapida</li>
@@ -88,6 +94,7 @@
         </ul>
       </div>
     </section>
+    
     
   </main>
   <footer>
